@@ -1,0 +1,87 @@
+@media (min-width: 700px) {
+    .uvodka {
+        height: 500px;
+        justify-content: space-around;
+    }
+
+    .uvodka__slogan__p {
+        padding-top: 5em;
+    }
+
+    .button {
+        padding-bottom: 7em;
+    }
+
+    .cards {
+        justify-content: space-evenly;
+    }
+
+    .dezerty__card {
+        display: flex;
+    }
+
+    .dezerty__card__img {
+        width: 50%;
+    }
+
+    .dezerty__card__popis {
+        width: 50%;
+    }
+
+    .dezerty__switch {
+        flex-direction: row-reverse;
+    }
+
+    .dezerty__card__popis {
+        background: linear-gradient(60deg, #6C1F2B 50%, #7E3137 50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .dezerty__card__popis__2 {
+        background: linear-gradient(60deg, #7E3137 50%, #6C1F2B 50%);
+    }
+
+    .dezerty__card__popis__button {
+        margin-left: 25%;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {
+    .uvodka {
+        height: 700px;
+    }
+    
+    .button {
+        padding-bottom: 16em;
+    }
+    
+    .uvodka__slogan__p {
+        padding-top: 8em;
+    }
+    
+    .najdes__popis {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2em;
+    }
+
+    .dezerty__card {
+        max-height: 400px;
+    }
+
+    .dezerty__card__img {
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media (min-width: 1700px) {
+    .uvodka {
+        height: 850px;
+    }
+}
