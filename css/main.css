@@ -1,5 +1,6 @@
 html {
     font-family: 'League Spartan', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -82,7 +83,7 @@ h1 span {
         transform: translateY(-10px) rotateZ(-45deg);
     }    
     .navbar.active{
-        background-color: #6C1F2B;
+        background-color: #7E3137;
     }
     .navbar{
         position: absolute;
@@ -92,7 +93,7 @@ h1 span {
         padding-bottom: 1em;
         top: 0%;
         right: -100vw;
-        background-color: #6C1F2B;
+        background-color: #7E3137;
         transition: .3s ease-in-out;
     }
     .navbar.active{
@@ -142,7 +143,7 @@ h1 span {
     background-repeat: no-repeat;
     background-position: bottom;
     color: white;
-    height: 200px;
+    height: 250px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -172,6 +173,7 @@ h1 span {
     background-color: white;
     padding: 0.5em 1em 0.5em 1em;
     border-radius: 50px;
+    text-decoration: none;
 }
 
 .nadpis2 {
